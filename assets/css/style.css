@@ -704,54 +704,54 @@ section {
 /*--------------------------------------------------------------
 # publication Details
 --------------------------------------------------------------*/
-.publication-details {
+.publication {
   padding-top: 40px;
 }
-.publication-details .publication-details-slider img {
+.publication .publication-slider img {
   width: 100%;
 }
-.publication-details .publication-details-slider .swiper-pagination {
+.publication .publication-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.publication-details .publication-details-slider .swiper-pagination .swiper-pagination-bullet {
+.publication .publication-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #149ddd;
 }
-.publication-details .publication-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.publication .publication-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #149ddd;
 }
-.publication-details .publication-info {
+.publication .publication-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
-.publication-details .publication-info h3 {
+.publication .publication-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.publication-details .publication-info ul {
+.publication .publication-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.publication-details .publication-info ul li + li {
+.publication .publication-info ul li + li {
   margin-top: 10px;
 }
-.publication-details .publication-description {
+.publication .publication-description {
   padding-top: 30px;
 }
-.publication-details .publication-description h2 {
+.publication .publication-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.publication-details .publication-description p {
+.publication .publication-description p {
   padding: 0;
 }
 
@@ -1077,3 +1077,33 @@ section {
     display: inline-block;
   }
 }
+
+  /* Certificate */
+
+.certificate .certificate-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+.certificate .certificate-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+
+.certificate img
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.certificate .last-img
+{
+    margin-bottom: 20px;
+}
+
